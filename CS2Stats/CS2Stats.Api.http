@@ -1,0 +1,6 @@
+@CS2Stats_HostAddress = http://localhost:5003
+
+GET {{CS2Stats.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
