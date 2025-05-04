@@ -19,6 +19,6 @@ public class CS2StatsDatabaseContext : DbContext
     }
 
     public DbSet<Player> Players { get; set; }
-    public DbSet<Player> Teams { get; set; }
+    public DbSet<Team> Teams { get; set; }
 
 }
